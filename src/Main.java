@@ -45,6 +45,12 @@ public class Main {
                     break;
 
                 case 5:
+                    System.out.println("Digite a porcentagem de desconto:");
+                    double desconto = sc.nextDouble();
+                    produto.aplicarDesconto(desconto);
+                    break;
+
+                case 0:
                     System.out.println("Finalizando o programa!");
                     break;
 

@@ -11,6 +11,7 @@ public class Produto {
     }
 
     public Produto(){}
+
         public void exibirInformacoes(){
             System.out.println("Nome do produto é: " + nome);
             System.out.println("O preço do produto é: R$ " + preco);
